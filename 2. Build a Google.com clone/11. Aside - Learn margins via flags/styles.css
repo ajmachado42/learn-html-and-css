@@ -1,15 +1,30 @@
+body{
+    margin: 0;
+}
+
 .red {
     background: #c71226;
     height: 100px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px; /* collapsing margins. larger margin takes precedent (bottom here, top blue) */
 }
 
 .blue {
     background: #0d1b88;
-    height: 100px;
+    height: 75px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .green {
     background: #397327;
     height: 100px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-
