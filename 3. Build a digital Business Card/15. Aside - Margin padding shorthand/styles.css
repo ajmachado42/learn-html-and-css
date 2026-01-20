@@ -6,11 +6,8 @@
     
     /* 
     Challenge:
-    Translate this into using the margin shorthand. 
+    Translate this into using the margin shorthand. Face of a clock - top right bottom left
     */
-    margin-top: 40px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 100px;
+    margin: 40px auto 40px auto;
     
 }
