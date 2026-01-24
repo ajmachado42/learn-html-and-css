@@ -9,10 +9,65 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+    margin: 0 auto 0 auto;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    text-shadow: 0px 0px 1px #1D3557;
+    text-align: center;
+    color: #1D3557;
+    background-color: #F1FAEE;
 }
 
-img {
-    width: 100px;
+.hero {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.MmMsOrLavvd4DjEi6HlPcgHaE8%3Fpid%3DApi&f=1&ipt=0abb8fb290508d5ce48510553387f6a831b2645c725cd4298ea3aa5d5cbe9839&ipo=images);
+    background-size: cover;
+    color: #F1FAEE;
+    padding: 50px 20px;
+}
+
+#hero-title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #1D3557;
+
+}
+
+#activities-img {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#park-img, #theatre-img, #sports-img, #guide-img {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#park-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+#theatre-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+#sports-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+#guide-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
